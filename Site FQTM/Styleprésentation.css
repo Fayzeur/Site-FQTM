@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "DK DISPLAY PATROL";
+    src: url("font/DK_Display_Patrol.otf") format("opentype");
+}
+@font-face {
+    font-family: "Janda Manatee Solid";
+    src: url("font/JandaManateeSolid.ttf") format("truetype");
+}
+
+html {
+
+    font-family: 'DK DISPLAY PATROL', 'Raleway', sans-serif;
+    color:  slategray;
+    background-color: black;
+
+
+}
+
+
+
+
+
+nav.menu-nav {
+    background-color: rgba(0,0,0,0.5);
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    letter-spacing: 3px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/*Bopite de gauche : Texte ???*/
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    background-color: black;
+
+    list-style-type: none;
+}
+
+
+nav.menu-nav ul li.btn a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+
+nav.menu-nav ul li.btn:hover a{
+    color: darkorange;
+    background-color: black;
+    transition: 0.3s all;
+}
